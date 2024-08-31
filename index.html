@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lewp - download images</title>
+    <title>lewp - downloadiImages</title>
 </head>
 <body style="text-align:center; padding-top: 50px; font-family: Arial, sans-serif;">
     <h1>Welcome to lewp</h1>
     <p>Enter a URL below to download images</p>
     <input type="text" id="urlInput" placeholder="Enter URL" style="width: 300px; padding: 10px;">
-    <button id="lewpButton" style="padding: 10px 20px; margin-left: 10px;">lewp</button>
+    <button id="lewpButton" style="padding: 10px 20px; margin-left: 10px;">Download</button>
     
     <p id="status" style="margin-top: 20px;"></p>
 
+    <!-- Include JSZip library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script src="lewp.js"></script>
 </body>
 </html>
